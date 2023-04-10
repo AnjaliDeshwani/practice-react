@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Memo } from "./components/useMemo/Memo";
+import { Parent } from "./components/useCallback/Parent";
+import { SearchBar } from "./components/debounceSearch/SearchBar";
+import InfiniteScrollOne from "./components/infiniteScrollOne/InfiniteScrollOne";
+import { InfiniteScrollTwo } from "./components/infiniteScrollTwo/InfiniteScrollTwo";
+import { Accordian } from "./components/accordian/Accordian";
+import { AccordianContainer } from "./components/accordian1/AccordianContainer";
+import MyComponent from "./components/hoc/MyComponent";
+// import { List } from "./components/list/List";
+import { List } from "./components/ListCrud/List";
+import { FileExplorer } from "./components/fileExplorer/FileExplorer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Memo /> */}
+      {/* <Parent /> */}
+      {/* <SearchBar /> */}
+      {/* <InfiniteScrollOne /> */}
+      {/* <InfiniteScrollTwo /> */}
+      {/* <Accordian /> */}
+      {/* <AccordianContainer /> */}
+      {/* <MyComponent /> */}
+      {/* <List /> */}
+      <FileExplorer />
     </div>
   );
 }

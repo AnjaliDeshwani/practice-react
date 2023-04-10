@@ -1,0 +1,21 @@
+.acc-conatiner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.acc-item {
+}
+
+.acc-data {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: #eee;
+}
+
+.acc-data:hover {
+  background-color: #aaa;
+}
