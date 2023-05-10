@@ -10,6 +10,8 @@ import MyComponent from "./components/hoc/MyComponent";
 // import { List } from "./components/list/List";
 import { List } from "./components/ListCrud/List";
 import { FileExplorer } from "./components/fileExplorer/FileExplorer";
+import { Pagination } from "./components/pagination/Pagination";
+import { PaginationBackend } from "./components/pagination/PaginationBackend";
 
 function App() {
   return (
@@ -19,11 +21,13 @@ function App() {
       {/* <SearchBar /> */}
       {/* <InfiniteScrollOne /> */}
       {/* <InfiniteScrollTwo /> */}
-      {/* <Accordian /> */}
+      <Accordian />
       {/* <AccordianContainer /> */}
       {/* <MyComponent /> */}
       {/* <List /> */}
-      <FileExplorer />
+      {/* <FileExplorer /> */}
+      {/* <Pagination /> */}
+      {/* <PaginationBackend /> */}
     </div>
   );
 }

@@ -11,3 +11,10 @@ export const Hoc = (Component) => {
     return <Component data={data} />;
   };
 };
+
+export const Hoc1 = (Component) => {
+  return () => {
+    const data = "My name is Anjli";
+    return <Component data={data} />;
+  };
+};

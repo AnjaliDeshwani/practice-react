@@ -10,7 +10,7 @@ export const Accordian = () => {
 
   //   const {[sec-one],[sec-two],[sec-three]}= toggleMenu;
   const clickHandler = (e) => {
-    e.persist();
+    // e.persist();
     console.log(e.target.id, toggleMenu["sec-one"]);
     setToggleMenu({ ...toggleMenu, [e.target.id]: !toggleMenu[e.target.id] });
   };
